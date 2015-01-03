@@ -1,7 +1,6 @@
 package workqueue
 
 import (
-	"fmt"
 	"runtime"
 	"sync"
 	"time"
