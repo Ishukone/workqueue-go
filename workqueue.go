@@ -7,7 +7,7 @@ import (
 
 type Work struct {
 	Data   interface{}
-	Action func(*Work) int
+	Action func(*Work)
 	Ch     interface{}
 }
 
