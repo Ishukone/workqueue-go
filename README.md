@@ -27,7 +27,9 @@ func main() {
         for {
                 fmt.Scan(&greet)
 
-                work := &workqueue.Work{greet, greeting, nil}
+                work := new(workqueue.Work)
+                work.Data = greet
+                work.Action = greeting
                 wq.ScheduleWork(work)
         }
 }
