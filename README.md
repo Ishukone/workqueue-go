@@ -1,7 +1,7 @@
 workqueue-go
 ============
 
-a sample workqueue for go, similar to workqueue in Linux kernel 
+a simple workqueue for go, similar to workqueue in Linux kernel 
 usage
 -----
 get source:<br>
